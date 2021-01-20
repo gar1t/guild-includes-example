@@ -1,0 +1,11 @@
+- config: model-base
+  sourcecode:
+    - exclude:
+        dir:
+          - data
+          - build
+          - libs
+    - include:
+        dir:
+          - scripts
+          - module

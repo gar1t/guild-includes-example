@@ -1,0 +1,6 @@
+- include: shared.yml
+
+- model: model2
+  extends: model-base
+  operations:
+    op: guild.pass
